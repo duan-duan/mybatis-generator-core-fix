@@ -190,3 +190,6 @@ Intellij IDEA 2016学习系列之（三）修改mybatis-generator源码生成中
     </build>
 ```
 ## Eclipse 中在install本工程后，直接时候插件生成即可，不需要配置pom.xml
+
+
+##  修改IntrospectedTable类中 将 sb.append("Mapper"); //$NON-NLS-1$  改成sb.append("Dao");  修改这个 可以 修改生成的 名字 结尾， Dao->Mapper 结尾。
